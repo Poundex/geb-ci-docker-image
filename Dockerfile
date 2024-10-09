@@ -15,7 +15,8 @@ RUN apt-get install -y \
   wget \
   gnupg \
   firefox \
-  chromium 
+  chromium \
+  chromium-driver
 RUN apt-get clean
 
 RUN useradd -u 1001 -m circleci
